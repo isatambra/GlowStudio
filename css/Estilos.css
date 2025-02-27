@@ -1,0 +1,74 @@
+/*Estilização do BODY do site */
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma', 'Arial';
+}
+.logo{
+    width: 10%;
+    margin: 0px 0px -2px 0px;
+}
+/*Estilização do header do site*/
+header {
+    background-color:rgb(240, 211, 250);
+}
+/*Estilização da DIV do header*/
+.divHeader {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    /*padding-bottom: 10px;*//*serve para aumentar a parte roxo claro*/
+}
+/*Estilização do MENU do site*/
+nav {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
+nav li {
+    display: inline;
+    color: black;
+    font-size: 20px;
+    margin-right: 180px;
+}
+.banner{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+/*SOBRE NÓS*/
+/*Imagem sobre nós*/
+.img_sobrenos{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+/*Estilização da sessão sobre nós*/
+.sobre_nos{
+    margin: 0;
+    background-color: #fffffe;
+    text-align: justify;
+    width: 60%;
+    margin-left: 15%;
+}
+.titulo_sobrenos{
+    clear: left;
+    text-align: center;
+}
+/*Eletilização do texto*/
+.texto_diferente{
+    color:rgb(165, 58, 161);
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+/*Estilização da sessão nosso estabelecimento*/
+.mapaGeral{
+    background: linear-gradient(#ffff, #d9a2ed);
+}
+.mapaGeral p{
+    text-align: center;
+}
+.mapa{
+    margin-left: 30%;
+}

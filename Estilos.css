@@ -1,0 +1,135 @@
+/*Estilização do BODY do site */
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma', 'Arial';
+}
+.logo{
+    width: 10%;
+    margin: 0px 0px -2px 0px;
+}
+/*Estilização do header do site*/
+header {
+    background-color:rgb(240, 211, 250);
+}
+/*Estilização da DIV do header*/
+.divHeader {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    /*padding-bottom: 10px;*//*serve para aumentar a parte roxo claro*/
+}
+/*Estilização do MENU do site*/
+nav {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
+nav li {
+    display: inline;
+    color: black;
+    font-size: 20px;
+    margin-right: 180px;
+}
+.banner{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+/*SOBRE NÓS*/
+/*Imagem sobre nós*/
+.img_sobrenos{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+/*Estilização da sessão sobre nós*/
+.sobre_nos{
+    margin: 0;
+    background-color: #fffffe;
+    text-align: justify;
+    width: 60%;
+    margin-left: 15%;
+}
+.titulo_sobrenos{
+    padding-left: 23%;
+    clear: left;
+    text-align: center;
+}
+.titulo_estabelecimento{
+    padding-left: 5%;
+    clear: left;
+    text-align: center;
+}
+/*Eletilização do texto*/
+.texto_diferente{
+    color:rgb(165, 58, 161);
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+/*Estilização da sessão nosso estabelecimento*/
+.mapaGeral{
+    background: linear-gradient(#ffff, #d9a2ed);
+}
+.mapaGeral p{
+    text-align: center;
+}
+.mapa{
+    margin-left: 30%;
+}
+.titulo_produtos{
+    padding-top: 3%;
+    padding-left: 5%;
+    margin: 0%;
+    text-align: center;
+}
+.img_produtos{
+    width: 250px;
+    margin-left: 700px;
+    box-shadow: 10px 10px 5px 0px #000000;
+    border-radius: 8px;
+    opacity: 1;
+    transition: 400ms;
+}
+.img_produtos:hover{
+    opacity: 0.5;
+}
+.lista_produtos{
+    margin-left: 450px;
+    margin-top: -300px;
+    padding-top: 5%;
+    font-family: 'Dancing Script', cursive;
+    vertical-align: "top";
+    list-style: none;
+    /*display:inline top;*//*divide o espeço com outra coisa*/
+}
+.lista_produtos li:before{
+    content: "𓃠  ";
+}
+.lista_produtos li{
+    line-height: 2; 
+}
+.Nossosprodutos{
+    margin-top: -18px;
+    background: linear-gradient(#d9a2ed, #ce6ef0);
+    height: 500px;
+}
+.div_nossosprodutos{
+    padding-top: 3%;
+}
+.Videoprodutos{
+    background: linear-gradient(#ce6ef0, #bd41ea);
+    height: 500px;
+    margin-top: -20px;
+}
+.titulo_video{
+    padding-top: 3%;
+    padding-left: 5%;
+    margin: 0%;
+    text-align: center;
+}
+.Video{
+    padding: 5% 0 0 30%;
+}
+

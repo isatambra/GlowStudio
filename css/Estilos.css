@@ -52,6 +52,12 @@ nav li {
     margin-left: 15%;
 }
 .titulo_sobrenos{
+    padding-left: 23%;
+    clear: left;
+    text-align: center;
+}
+.titulo_estabelecimento{
+    padding-left: 5%;
     clear: left;
     text-align: center;
 }
@@ -72,3 +78,58 @@ nav li {
 .mapa{
     margin-left: 30%;
 }
+.titulo_produtos{
+    padding-top: 3%;
+    padding-left: 5%;
+    margin: 0%;
+    text-align: center;
+}
+.img_produtos{
+    width: 250px;
+    margin-left: 700px;
+    box-shadow: 10px 10px 5px 0px #000000;
+    border-radius: 8px;
+    opacity: 1;
+    transition: 400ms;
+}
+.img_produtos:hover{
+    opacity: 0.5;
+}
+.lista_produtos{
+    margin-left: 450px;
+    margin-top: -300px;
+    padding-top: 5%;
+    font-family: 'Dancing Script', cursive;
+    vertical-align: "top";
+    list-style: none;
+    /*display:inline top;*//*divide o espeço com outra coisa*/
+}
+.lista_produtos li:before{
+    content: "𓃠  ";
+}
+.lista_produtos li{
+    line-height: 2; 
+}
+.Nossosprodutos{
+    margin-top: -18px;
+    background: linear-gradient(#d9a2ed, #ce6ef0);
+    height: 500px;
+}
+.div_nossosprodutos{
+    padding-top: 3%;
+}
+.Videoprodutos{
+    background: linear-gradient(#ce6ef0, #bd41ea);
+    height: 500px;
+    margin-top: -20px;
+}
+.titulo_video{
+    padding-top: 3%;
+    padding-left: 5%;
+    margin: 0%;
+    text-align: center;
+}
+.Video{
+    padding: 5% 0 0 30%;
+}
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <!--Coloca o Script e tem que ser no header-->
+     <script>
+        alert('Bem vindo ao nosso site!');<!-- Cria alerta -->
+        dia = new Array("Domingo","Segunda-feira","Tercça-feira","Quarta-feira","Quinta-feira","Sexta-feira","Sábado");
+        mes = new Array("Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+        data = new Date
+    </script>
+</head>
+<!--Cabeçalho-->
+<header>
+    <meta charset="UTF-8">
+    <title>Entre pontos</title>
+    <link href = "css/Estilos.css" rel= "stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <div class= "divHeader">
+        <img src="img/Logo estética feminina minimalista azul.png" title="Meu site" class="logo"/>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class = "main_produtos">
+    <p class= "data1">
+        <script>
+            <!--Coloca data atualizada com dia,ano e mes-->
+            document.write(dia[data.getDay()] + " , " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear());
+        </script>
+    </p>
+<div class="container">
+    <div class="card">
+        <img src="img/gato.png" class="img_gato" alt="Produto1">
+        <h2>Gatinho</h2>
+        <p>Gato de 20 cm</p>
+        <span class="preco">R$ 40/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/panda.png" class="img_gato" alt="Produto2">
+        <h2>Panda</h2>
+        <p>Panda de 30 cm</p>
+        <span class="preco">R$ 60/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/urso.png" class="img_gato" alt="Produto3">
+        <h2>Urso</h2>
+        <p>Urso de 50 cm</p>
+        <span class="preco">R$ 80/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/elefante.png" class="img_gato" alt="Produto3">
+        <h2>Elefante</h2>
+        <p>Elefante de 70 cm</p>
+        <span class="preco">R$ 120/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/hello.png.webp" class="img_gato" alt="Produto3">
+        <h2>Hello Kitty</h2>
+        <p>Hello Kitty de 45 cm</p>
+        <span class="preco">R$ 40/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/chocalho.png" class="img_gato" alt="Produto3">
+        <h2>Chocalho para bebê</h2>
+        <p>Chocalho de 60 cm</p>
+        <span class="preco">R$ 80/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/coala.png" class="img_gato" alt="Produto3">
+        <h2>Coala</h2>
+        <p>Coala de 50 cm</p>
+        <span class="preco">R$ 70/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/galinha.png" class="img_gato" alt="Produto3">
+        <h2>Kit Galinha</h2>
+        <p>Kit com 2 Galinhas de 50 cm, e 3 pintinhos de 20 cm</p>
+        <span class="preco">R$ 200/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/harry_potter.png" class="img_gato" alt="Produto3">
+        <h2>Boneco Harry Potter</h2>
+        <p>Personagens do fime Harry Potter de 50 cm</p>
+        <span class="preco">R$ 40/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/KitNatal.png" class="img_gato" alt="Produto3">
+        <h2>Bonecos de Natal</h2>
+        <p>Decoração de Natal com bonecos de 30 cm</p>
+        <span class="preco">R$ 40/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/macaco.png" class="img_gato" alt="Produto3">
+        <h2>Macaco</h2>
+        <p>Macaco de 50 cm</p>
+        <span class="preco">R$ 60/cada</span>
+    </div>
+    <div class="card">
+        <img src="img/stitch.png" class="img_gato" alt="Produto3">
+        <h2>Stitch</h2>
+        <p>Boneco Stitch de 40 cm</p>
+        <span class="preco">R$ 80/cada</span>
+    </div>
+</div>
+</main>
+<!--Rodapé do Site-->
+<footer>
+    <img src="img/Logo estética feminina minimalista azul.png" alt="Entre pontos" class="logo_footer"/>
+    <p class="texto_footer">Encomendas on-line: <a href="https://wa.me/5511977621300"><i class="fa fa-whatsapp"></i></a> (11) 99236-8297 | <a href="https://instagram.com/isatambra"><i class="fa fa-instagram"></i>@Entre_pontos</p></a>
+</footer>

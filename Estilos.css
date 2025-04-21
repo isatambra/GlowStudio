@@ -1,0 +1,230 @@
+/*Estilização do BODY do site */
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma', 'Arial';
+}
+.main_index {
+    background: linear-gradient(#e7f0f3,#a8e0f1,#a8e0f1, #68bcd5,#68bcd5, #2b7493);
+}
+.logo{
+    width: 10%;
+    margin: 0px 0px -2px 0px;
+}
+/*Estilização do header do site*/
+header {
+    background-color:rgb(50,108,139);
+}
+/*Estilização da DIV do header*/
+.divHeader {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    /*padding-bottom: 10px;*//*serve para aumentar a parte roxo claro*/
+}
+/*Estilização do MENU do site*/
+nav {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
+nav li {
+    display: inline;
+    color: black;
+    font-size: 20px;
+    margin-right: 180px;
+}
+.banner{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+/*SOBRE NÓS*/
+/*Imagem sobre nós*/
+.img_sobrenos{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+/*Estilização da sessão sobre nós*/
+.sobre_nos{
+    padding: 0%;
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left: 15%;
+}
+.titulo_sobrenos {
+    padding-top: 20px;
+    margin: 0%;
+    padding-left: 15%;
+    clear: left;
+    text-align: center;
+}
+.titulo_estabelecimento{
+    padding-left: 0%;
+    clear: left;
+    text-align: center;
+}
+/*Estilização da Data*/
+.data {
+    padding: 40px;
+}
+/*Estilização do texto*/
+.texto_diferente{
+    padding-top: 0px;
+    color:rgb(165, 58, 161);
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+/*Estilização da sessão nosso estabelecimento*/
+.mapaGeral p{
+    text-align: center;
+}
+.mapa{
+    margin-left: 30%;
+}
+.titulo_produtos{
+    padding-top: 3%;
+    padding-left: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.img_produtos{
+    width: 250px;
+    margin-left: 750px;
+    box-shadow: 10px 10px 5px 0px #000000;
+    border-radius: 8px;
+    opacity: 1;
+    transition: 400ms;
+}
+.img_produtos:hover{
+    opacity: 0.5;
+}
+.lista_produtos{
+    margin-left: 450px;
+    margin-top: -300px;
+    padding-top: 5%;
+    font-family: 'Dancing Script', cursive;
+    vertical-align: "top";
+    list-style: none;
+    /*display:inline top;*//*divide o espeço com outra coisa*/
+}
+.lista_produtos li:before{
+    content: "𓃠  ";
+}
+.lista_produtos li{
+    line-height: 2; 
+}
+.Nossosprodutos{
+    margin-top: -18px;
+    height: 500px;
+}
+.div_nossosprodutos{
+    padding-top: 3%;
+}
+.Videoprodutos{
+    padding-top: 0%;
+    height: 500px;
+    margin-top: -20px;
+}
+.titulo_video{
+
+    padding-top: 3%;
+    padding-left: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.Video{
+    padding: 5% 0 0 32%;
+}
+footer{
+    background: url("../img/Logotipodelicadomonogramafemininobegeebranco.png");
+    background-size: cover;
+    background-position: center;
+    background-color:rgb(62, 131, 168);
+    background-blend-mode: darken;
+    padding: 8px 10px 10px 0;
+
+}
+footer p{
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+}
+
+
+.fa fa-whatsapp{
+    color: #0ef931;
+}
+.logo_footer{
+    width: 12%;
+    padding-left: 85%;
+}
+/*Estilização do fundo*/
+.main_produtos {
+    padding-top: 0%;
+    background: linear-gradient(#e7f0f3,#a8e0f1,#a8e0f1, #68bcd5,#68bcd5, #2b7493);
+}
+/*Estilização da data*/
+.data {
+    margin: 0%;
+    padding-top: 3%;
+    padding-bottom: 0%;
+    padding-left: 68%; 
+}
+.data1 {
+    margin: 0%;
+    padding-top: 3%;
+    padding-bottom: 0%;
+    padding-left:77%; 
+}
+/* Container dos cards*/
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/* Estilização do card*/
+.card {
+    background: #ffff;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+/*Imagens*/
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/*Titulo*/
+.card h2 {
+    margin: 10px 0;
+}
+/*Preço*/
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ae6a27;
+    margin: 10px 0;
+}
+/*.img_gato {
+    width: 250px;
+    margin-left: 0px;
+    border-radius: 8px;
+    opacity: 1;
+    transition: 400ms;
+}*/

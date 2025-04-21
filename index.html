@@ -2,47 +2,61 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Meu site</title>
+    <title>Entre Pontos</title>
     <link href = "css/Estilos.css" rel= "stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--Coloca o Script e tem que ser no header-->
+    <script>
+        alert('Bem vindo ao nosso site!');<!-- Cria alerta -->
+        dia = new Array("Domingo","Segunda-feira","Tercça-feira","Quarta-feira","Quinta-feira","Sexta-feira","Sábado");
+        mes = new Array("Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+        data = new Date
+    </script>
 </head>
 <body>
    <header>
     <div class="divHeader">
         <!--Logotipo-->
-        <img src="img/Logotipo delicado monograma feminino bege e branco.png" title="Meu site" class="logo"/>
+        <img src="img/Logo estética feminina minimalista azul.png" title="Entre pontos" class="logo"/>
         <!--Menu-->
         <nav>
             <!--Lista de itens do menu-->
             <ul>
                 <!--Itens do menu-->
-                <li>Home</li>
-                <li>Produtos</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
                 <li>Contatos</li>
             </ul>
         </nav>
     </div>
    </header>
    <!--Banner-->
-   <img src="img/roxo_claro.png" class="banner"/>
+   <!--<img src="img/tela.png" class="banner"/>-->
    <!--Conteúdo da página web-->
-   <main>
+   <main class = "main_index">
         <!--SOBRE NÓS-->
+        <section class= "cor_sobrenos">
         <section class="sobre_nos">
             <h2 class="titulo_sobrenos">Sobre nós</h2>
-            <img src="img/foto.png" class="img_sobrenos"/>
-            <p>texto texto texto texto texto texto texto texto texto
-
-             <p class = "texto_diferente"></p>
-            <p> texto texto texto texto texto texto texto</p>
-                texto texto texto texto texto texto texto texto <b>texto </b>texto
-             <p>texto texto texto texto texto texto</p>
-                texto texto texto texto texto texto texto <i>texto texto texto texto texto texto texto texto texto</i>
+            <img src="img/amigurumi.png" class="img_sobrenos"/> 
+             <p class= "data">
+                <script>
+                    <!--Coloca data atualizada com dia,ano e mes-->
+                    document.write(dia[data.getDay()] + " , " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear());
+                </script>
+            </p>
+            <p class = "texto_diferente"></p>
+            <p>Seja bem-vindo à nossa loja de amigurumis, onde cada ponto conta uma história de carinho e criatividade!
+               
+               <p>Aqui você encontra bichinhos e personagens feitos à mão, com muito cuidado e atenção aos detalhes. Nossos amigurumis são perfeitos para presentear, decorar ou colecionar. Trabalhamos com peças únicas e personalizadas, criadas com fios de qualidade e muito amor. Venha se encantar com o mundo mágico do crochê!</p>
                 <!-- b - deixa em negrito e o i deixa em italico -->
             </p>   
+        </section>
         </section>
         <!--NOSSO ESTABELECIMENTO-->
         <section class="mapaGeral">
             <h2 class="titulo_estabelecimento">Nosso Estabelecimento</h2>
+           
             <p>Veja no mapa abaixo como nos encontrar!
                 <div class="mapa">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8653098296927!2d-46.56120982501787!3d-23.64499416466945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4328c992748f%3A0xcea3c3e698444297!2sSENAI%20S%C3%A3o%20Caetano%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1740608304419!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -51,16 +65,17 @@
         </section>
         <!--NOSSOS PRODUTOS-->
         <section class="Nossosprodutos">
-            <h2 class="titulo_produtos"> Nossos Produtos </h2>
+            <h2 class="titulo_produtos"> Nossos Trabalhos</h2>
             <div class="div_nossosprodutos">
-            <img src="img/produtos.png" class="img_produtos"/>
+            <img src="img/amigurumi1.png" class="img_produtos"/>
             <!--Lista de produtos-->
                 <ul class="lista_produtos">
-                    <li> Jogos de tapete</li>                
-                    <li> Jogo americano</li>
-                    <li> Passadeiras</li>
-                    <li> Pulseiras</li>
-                    <li> Dream Catcher</li>
+                    <li> Amigurumis Personalizados</li>                
+                    <li> Chaveiros de Amigurumi</li>
+                    <li> Enfeites de Maternidade</li>
+                    <li> Lembrancinhas para Festas</li>
+                    <li> Decoração de Natal</li>
+                    <li> Datas Comemorativas</li>
                 </ul> 
             </div>
         </section>   
@@ -68,9 +83,14 @@
             <h3 class = "titulo_video"> Vídeo Ilustrativo</h3>
             <!-- Estilização Vídeo -->
             <div class="Video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bEKufM_im88?si=9-yUdy7NYPkop64h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CJSNb6JwTvc?si=5EeTW-3ECME3-4Ab" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
    </main>
+   <!--Rodapé do site-->
+   <footer>
+        <img src="img/Logo estética feminina minimalista azul.png" alt="Glow Studio" class="logo_footer"/>
+        <p class="texto_footer">Encomendas on-line: <a href="https://wa.me/5511977621300"><i class="fa fa-whatsapp"></i></a> (11) 99236-8297 | <a href="https://instagram.com/isatambra"><i class="fa fa-instagram"></i>@Entre_pontos</p></a>
+   </footer>
 </body>
 </html>
